@@ -1,0 +1,110 @@
+html {
+    background-image: url(https://78.media.tumblr.com/cf2bfb5a52acc6247e6b752d2505f04c/tumblr_p9tdoul5zw1u1lpwho2_1280.jpg);
+}
+
+body {
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  color: black;
+  font-weight: 300;
+  background-color: lightpink;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+@font-face {
+    font-family: Mistral;
+    src: url(./assets/Mistral.ttf);
+}
+
+h1 {
+  font-family: Mistral;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 10px;
+  font-size: 50px;
+  background-color: #000000;
+  color: lightpink;
+}
+.question {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.answers {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+.answers label {
+  display: block;
+  margin-bottom: 10px;
+}
+button {
+  font-family: 'Helvetica', sans-serif;
+    font-size: 22px;
+    background-color: rgb(24, 26, 27);
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover {
+    background-color: rgb(10, 16, 19);
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+.active-slide {
+  opacity: 1;
+  z-index: 2;
+}
+.quiz-container {
+  position: relative;
+  height: 200px;
+  margin-top: 40px;
+}
+
+h2 {
+    color: black;
+    font-weight: 100;
+    font-size: 40;
+    margin: 40px 0px 20px;
+}
+
+#clockdiv {
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+
+#clockdiv > div {
+    padding: 10px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding: 15px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+}
+
+.small-text {
+    padding-top: 5px;
+    font-size: 16px;
+}
